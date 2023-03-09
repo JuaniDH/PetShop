@@ -3,11 +3,14 @@
 }
 
 body{
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    display: flex;
     background-color: lightgrey;
+}
+
+header, main, footer{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
 }
 
 /*Barra superior*/
@@ -23,8 +26,8 @@ body{
 }    
 
 .SupBar p:first-child{
-    margin-left: 70px;
-    margin-right: 700px;
+    margin-right: 850px;
+    margin-left: 20px;
 }
 
 .SupBar p:last-child{
@@ -52,7 +55,7 @@ p{
 
 .logo{
     margin-left: 40px;
-    margin-right: 350px;
+    margin-right: 465px;
     width: 200px;
 }
 
@@ -122,13 +125,12 @@ a:hover{
 
 .imagenPatita{
     padding-top: 20px;
-    display: flex;
-    margin-left: 490px;
+    margin-left: 560px;
     width: 75px;
 }
 
 .productos h1{
-    margin-left: 378px;
+    margin-left: 435px;
     font-size: 30px;
 }
 
@@ -139,7 +141,7 @@ a:hover{
 
 .juguetes{
     display: flex;
-    margin-left: 69px;
+    margin-left: 130px;
     margin-top: 110px;
     text-align: center;
     margin-bottom: 0;
@@ -178,12 +180,12 @@ a:hover{
 .Contacto{
     padding-top: 1px;
     display: flex;
+    flex-wrap: wrap;
     background-color: white;
-    display: block;
 }
 
 .Contacto h2{
-    margin-left: 450px;
+    margin-left: 520px;
     font-size: 27px;
     margin-bottom: 50px;
 }
@@ -191,8 +193,7 @@ a:hover{
 .Contacto input{
     color: white;
     background-color: #3C2313;
-    display: block;
-    margin-left: 328px;
+    margin-left: 390px;
     font-size: 15px;
     margin-bottom: 15px;
     width: 400px;
@@ -202,7 +203,7 @@ a:hover{
 }
 
 .botones{
-    margin-left: 390px;
+    margin-left: 465px;
     margin-top: 70px;
     padding-bottom: 70px;
 }
